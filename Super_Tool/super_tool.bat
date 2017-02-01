@@ -1,0 +1,1 @@
+Start "Super Tool" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0gui\gui.ahk

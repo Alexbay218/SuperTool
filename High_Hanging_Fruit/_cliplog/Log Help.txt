@@ -1,0 +1,8 @@
+The number in the begining is the date and time in which the clipboard was logged
+the format is: YYYMMDDHH24MISS
+YYYY - year
+MM - month
+DD - day
+HH24 - hour in 24 hour format
+MI - minutes
+SS - seconds

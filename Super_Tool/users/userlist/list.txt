@@ -1,0 +1,7 @@
+
+User accounts for \\ROOT-PC
+
+-------------------------------------------------------------------------------
+nimda                    root                     tseug                    
+The command completed successfully.
+
