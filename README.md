@@ -1,10 +1,10 @@
-SuperTool
-
+<h1>SuperTool
+<hr>
 SuperTool is a tool design for basic security configuration of Microsoft Windows
 
 It uses both AutoHotkey and Batch to accomplish a variety of tasks
 
-
+```
 GUI:
 Script launcher (Low/High Hanging Fruit)
 User management
@@ -35,3 +35,4 @@ Low Hanging Fruit:
     > Games
 High Hanging Fruit:
 0) Applies LSP
+```
