@@ -1,4 +1,4 @@
-<h1>SuperTool
+<h1>SuperTool</h1>
 <hr>
 SuperTool is a tool design for basic security configuration of Microsoft Windows
 
