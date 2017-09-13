@@ -1,26 +1,7 @@
-User name                    yellowdiamond
-Full Name                    
-Comment                      
-User's comment               
-Country code                 000 (System Default)
-Account active               Yes
-Account expires              Never
 
-Password last set            11/15/2016 8:26:31 AM
-Password expires             12/27/2016 8:26:31 AM
-Password changeable          11/15/2016 8:26:31 AM
-Password required            Yes
-User may change password     Yes
+User accounts for \\WIN-N6DC8GG1751
 
-Workstations allowed         All
-Logon script                 
-User profile                 
-Home directory               
-Last logon                   Never
-
-Logon hours allowed          All
-
-Local Group Memberships      *Users                
-Global Group memberships     *None                 
+-------------------------------------------------------------------------------
+Administrator            Guest                    user                     
 The command completed successfully.
 

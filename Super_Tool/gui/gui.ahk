@@ -1,7 +1,12 @@
 #SingleInstance
+if !A_IsAdmin {
+  MsgBox, Please Start with Admin Privileges
+  ExitApp
+}
+
 SetWorkingDir, %A_ScriptDir%
 
-Gui, New, -Theme, Super Tool v0.24
+Gui, New, -Theme, Super Tool v0.25
 Gui, Add, Tab, +h600 +w400,Script Starter|Users|File Search
 
 Gui, Tab, 1
@@ -36,6 +41,7 @@ Gui, Show
 Goto, RefreshUser
 
 Return
+
 ;Script Starter Tab
 HHF:
 {
@@ -55,6 +61,7 @@ PointGain:
 	SoundPlay, ..\point\Point_Gain.mp3
 	Return
 }
+
 ;User tab
 GetUser:
 {

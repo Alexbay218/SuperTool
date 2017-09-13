@@ -1,0 +1,1 @@
+From http://create.stephan-brumme.com/hash-library/

@@ -1,7 +1,7 @@
 
-User accounts for \\ROOT-PC
+User accounts for \\WIN-N6DC8GG1751
 
 -------------------------------------------------------------------------------
-nimda                    root                     tseug                    
+Administrator            Guest                    user                     
 The command completed successfully.
 
