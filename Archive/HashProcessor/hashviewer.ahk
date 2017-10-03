@@ -5,7 +5,6 @@ Gui, Add, Button, gCurrentFileSelect, Open
 Gui, Add, Text,, Select compare hashshot
 Gui, Add, Button, gCompareFileSelect, Open
 Gui, Add, Button, gCompare, Compare
-Gui, Add, ListView, , Current|Compared
 Gui, Show
 currentFile := "NULL"
 compareFile := "NULL"
@@ -21,8 +20,7 @@ Return
 
 Compare:
 if(currentFile != "NULL" && compareFile != "NULL") {
-  currentArr := Object()
-  compareArr := Object()
+  Run, %A_ScriptDir%\bin\main.exe %currentFile% %compareFile%
 }
 else {
   MsgBox, Select hashshots to compare
