@@ -2,6 +2,6 @@
 User accounts for \\WIN-N6DC8GG1751
 
 -------------------------------------------------------------------------------
-Administrator            Guest                    user                     
+nimda                    tseug                    user                     
 The command completed successfully.
 

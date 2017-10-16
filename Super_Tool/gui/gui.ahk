@@ -12,7 +12,6 @@ Gui, Add, Tab, +h600 +w400,Script Starter|Users|File Search
 Gui, Tab, 1
 Gui, Add, Button, c40 r3 center gLHF, Low Hanging Fruit
 Gui, Add, Button, c40 r3 center gHHF, High Hanging Fruit
-Gui, Add, Button, c40 r3 center gPointGain, Point Gain
 
 Gui, Tab, 2
 Gui, Add, Button, gRefreshUser, Refresh Users
@@ -53,12 +52,6 @@ LHF:
 {
 	SetWorkingDir, %A_ScriptDir%
 	Run, *Runas ..\..\Low_Hanging_Fruit\run_first.bat
-	Return
-}
-PointGain:
-{
-	SetWorkingDir, %A_ScriptDir%
-	SoundPlay, ..\point\Point_Gain.mp3
 	Return
 }
 
