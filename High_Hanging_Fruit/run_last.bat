@@ -10,6 +10,8 @@ Start "Advanced Firewall" /wait "%~dp0\advfirewall\VCaftApplier"
 
 secedit /configure /db "%~dp0secedit/secedit.sdb" /cfg "%~dp0secedit/VClsp.inf"
 
+net user %USERNAME% /active:yes
+
 Start "End" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0\end.ahk"
 
 echo exit > "%~dp0\_cliplog\exit.txt"
