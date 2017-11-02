@@ -1,7 +1,7 @@
 
-User accounts for \\WIN-N6DC8GG1751
+User accounts for \\WIN-00IBCC1CV3G
 
 -------------------------------------------------------------------------------
-nimda                    tseug                    user                     
+admin                    Administrator            Guest                    
 The command completed successfully.
 
