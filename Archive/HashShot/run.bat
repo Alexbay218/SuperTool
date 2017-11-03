@@ -1,10 +1,10 @@
 @echo off
-del "%cd%\bin\log.txt"
+del "%~dp0bin\log.txt"
 echo Finding files
-dir C:\* /s /b /a-d > "%cd%\bin\list.txt"
+dir C:\* /s /b /a-d > "%~dp0bin\list.txt"
 echo Done finding
 echo Starting hash calculations
-"%cd%\bin\main.exe" "%cd%\bin\list.txt"
+"%~dp0bin\main.exe" "%~dp0bin\list.txt"
 echo.
 echo Done calculating hashes
 
