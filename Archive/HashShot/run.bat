@@ -1,5 +1,6 @@
 @echo off
 del "%~dp0bin\log.txt"
+del "%~dp0bin\list.txt"
 echo Finding files
 dir C:\* /s /b /a-d > "%~dp0bin\list.txt"
 echo Done finding
