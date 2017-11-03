@@ -8,8 +8,6 @@ Start "ClipLogger" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0_cliplog\Cli
 
 Timeout 2
 
-Start "View Hidden" /wait "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0viewhidden\viewhidden.ahk"
-
 Start "Action Center Services" /wait "%~dp0actioncenter\acntrrsrvc.bat"
 echo Action Center Scripts finished | clip
 
