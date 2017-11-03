@@ -25,4 +25,3 @@ color fc
 timeout 1
 color 0a
 timeout 1
-pause
