@@ -6,7 +6,11 @@ dism /online /get-features > feature_list.txt
 dism /online /get-package > package_list.txt
 move "%~dp0feature_list.txt" "%~dp0..\Archive\Data\Before"
 move "%~dp0package_list.txt" "%~dp0..\Archive\Data\Before"
-"%~dp0..\Archive\HashShot\run.bat"
+del "%~dp0..\Archive\HashShot\bin\log.txt"
+del "%~dp0..\Archive\HashShot\bin\list.txt"
+dir C:\* /s /b /a-d > "%~dp0..\Archive\HashShot\bin\list.txt"
+"%~dp0..\Archive\HashShot\bin\main.exe" "%~dp0..\Archive\HashShot\bin\list.txt"
+move "%~dp0..\Archive\HashShot\bin\log.txt" "%~dp0..\Archive\Data\Before"
 move "%~dp0..\Archive\HashShot\bin\log.txt" "%~dp0..\Archive\Data\Before"
 cd %~dp0
 "%~dp0wget\bin\wget.exe" --no-check-certificate "http://ninite.com/.net4.7-7zip-chrome-essentials-firefox-java8-malwarebytes-notepadplusplus-spybot2/ninite.exe"
@@ -18,7 +22,11 @@ dism /online /get-features > feature_list.txt
 dism /online /get-package > package_list.txt
 move "%~dp0feature_list.txt" "%~dp0..\Archive\Data\After"
 move "%~dp0package_list.txt" "%~dp0..\Archive\Data\After"
-"%~dp0..\Archive\HashShot\run.bat"
+del "%~dp0..\Archive\HashShot\bin\log.txt"
+del "%~dp0..\Archive\HashShot\bin\list.txt"
+dir C:\* /s /b /a-d > "%~dp0..\Archive\HashShot\bin\list.txt"
+"%~dp0..\Archive\HashShot\bin\main.exe" "%~dp0..\Archive\HashShot\bin\list.txt"
+move "%~dp0..\Archive\HashShot\bin\log.txt" "%~dp0..\Archive\Data\Before"
 move "%~dp0..\Archive\HashShot\bin\log.txt" "%~dp0..\Archive\Data\After"
 cd %~dp0
 "%~dp0..\Super_Tool\super_tool.bat"
