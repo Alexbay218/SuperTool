@@ -121,6 +121,8 @@ tex
 
 Application
 ---------
+ahk
+au3
 sh
 bat
 cmd
@@ -129,6 +131,13 @@ exe
 ps
 eps
 dll
+hta
+lua
+php
+pl
+py
+vbs
+jar
 
 Archive
 ---------
@@ -136,6 +145,19 @@ rar
 7z
 zip
 tar
+bin
+bz2
+cab
+gz
+iso
+img
+cue
+
+Keys
+---------
+ssh
+pub
+ppk
 
 
 
