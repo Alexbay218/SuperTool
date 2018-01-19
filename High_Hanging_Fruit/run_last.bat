@@ -6,7 +6,8 @@ Start "Start" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0start.ahk"
 
 Start "ClipLogger" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0_cliplog\ClipLogger.ahk"
 
-Start "Advanced Firewall" /wait "%~dp0\advfirewall\VCaftApplier"
+Rem Start "Advanced Firewall" /wait "%~dp0\advfirewall\VCaftApplier"
+Rem Advanced Firewall not used right now
 
 secedit /configure /db "%~dp0secedit/secedit.sdb" /cfg "%~dp0secedit/VClsp.inf"
 
