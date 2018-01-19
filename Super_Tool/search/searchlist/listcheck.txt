@@ -1,9 +1,1 @@
-png
-gif
-jpg
-wav
-avi
-mp4
-txt
-doc
-docx
+
