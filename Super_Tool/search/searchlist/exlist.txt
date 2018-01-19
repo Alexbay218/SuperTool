@@ -2,6 +2,8 @@ Image
 ---------
 png
 gif
+exif
+ico
 jpg
 jpeg
 bmp
@@ -13,20 +15,16 @@ Audio
 ---------
 aiff
 aif
-
 mid
 midi
-
 au
 3gp
 flac
 m4a
 mp3
-
 ogg
 oga
 mogg
-
 wav
 
 Video
@@ -35,21 +33,16 @@ webm
 mkv
 flv
 vob
-
 ogv
 ogg
-
 avi
 mov
 wmv
-
 mp4
 m4p
 m4v
-
 mpg
 mpeg
-
 m4v
 3gp
 
@@ -63,7 +56,6 @@ docm
 dotx
 dotm
 docb
-
 xls
 xlt
 xlm
@@ -76,7 +68,6 @@ xla
 xlam
 xll
 xlw
-
 ppt
 pot
 pps
@@ -89,16 +80,13 @@ ppsx
 ppsm
 sldx
 sldm
-
 pub
-
 sxw
 sxc
 sxd
 sxi
 sxm
 sxg
-
 odt
 ods
 odp
@@ -108,7 +96,6 @@ fodt
 fods
 fodp
 fodg
-
 dbf
 dif
 xps
@@ -159,5 +146,8 @@ ssh
 pub
 ppk
 
-
-
+Other
+---------
+sdb
+reg
+ini
