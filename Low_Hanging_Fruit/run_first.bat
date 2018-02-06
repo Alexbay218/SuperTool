@@ -4,8 +4,6 @@ echo on
 
 Start "Start" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0start.ahk"
 
-Start "ClipLogger" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0_cliplog\ClipLogger.ahk"
-
 Timeout 2
 
 Start "Action Center Services" /wait "%~dp0actioncenter\acntrrsrvc.bat"
@@ -17,7 +15,7 @@ Start "Windows FireWall Reset" "%~dp0actioncenter\winfwreset.bat"
 
 Start "Services" /wait "%~dp0services\run_services.bat"
 
-echo exit > "%~dp0\_cliplog\exit.txt"
+echo exit > "%~dp0exit.txt"
 
 echo off
 color fc
@@ -37,4 +35,4 @@ timeout 1
 color 0a
 timeout 1
 
-del "%~dp0\_cliplog\exit.txt"
+del "%~dp0exit.txt"

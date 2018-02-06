@@ -1,0 +1,1 @@
+"%~dp0..\nircmdc.exe" elevate "%~dp0eula.bat"

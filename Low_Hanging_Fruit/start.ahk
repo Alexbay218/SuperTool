@@ -3,7 +3,7 @@ SplashImage, start.png, by45
 while true
 {
 	SetWorkingDir, %A_ScriptDir%
-	IfExist, _cliplog\exit.txt
+	IfExist, exit.txt
 		Break
 }
 ExitApp
