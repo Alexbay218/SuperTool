@@ -9,11 +9,11 @@ Timeout 2
 Start "Action Center Services" /wait "%~dp0actioncenter\acntrrsrvc.bat"
 echo Action Center Scripts finished | clip
 
-Start "Windows Defender Signature Update" "%~dp0actioncenter\windefsigupdate.bat"
+"%~dp0actioncenter\windefsigupdate.bat"
 
-Start "Windows FireWall Reset" "%~dp0actioncenter\winfwreset.bat"
+"%~dp0actioncenter\winfwreset.bat"
 
-Start "Services" /wait "%~dp0services\run_services.bat"
+"%~dp0services\run_services.bat"
 
 echo exit > "%~dp0exit.txt"
 

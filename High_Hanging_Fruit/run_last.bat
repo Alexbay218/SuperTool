@@ -4,7 +4,7 @@ echo on
 
 Start "Start" "%~dp0..\AutoHotKey_Source\AutoHotkey.exe" "%~dp0start.ahk"
 
-Rem Start "Advanced Firewall" /wait "%~dp0\advfirewall\VCaftApplier"
+Rem Start "Advanced Firewall" /wait "%~dp0\advfirewall\aftApplier"
 
 secedit /configure /db "%~dp0secedit/secedit.sdb" /cfg "%~dp0secedit/lsp.inf"
 
