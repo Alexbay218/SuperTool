@@ -1,15 +1,14 @@
-@echo off
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\Auto Update" /v AUOptions /t REG_DWORD /d 4 /f | clip
 
-sc config wscsvc start= auto | clip
-sc config MpsSvc start= auto | clip
-sc config wuauserv start= auto | clip
-sc config WinDefend start= auto | clip
+sc config wscsvc start= auto
+sc config MpsSvc start= auto
+sc config wuauserv start= auto
+sc config WinDefend start= auto
 
-net start wscsvc | clip
-net start MpsSvc | clip
-net start wuauserv | clip
-net start WinDefend | clip
+net start wscsvc
+net start MpsSvc
+net start wuauserv
+net start WinDefend
 
 netsh advfirewall set allprofiles state on
 
